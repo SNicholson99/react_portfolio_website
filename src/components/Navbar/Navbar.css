@@ -1,0 +1,21 @@
+.Navbar {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+}
+
+.Navbar-button {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  background: none;
+  border: none;
+  padding: 15px 100px 15px 100px;
+  min-width: 10vw;
+}
+
+.Navbar-button:hover {
+  background-color: gray;
+  color: black;
+}
