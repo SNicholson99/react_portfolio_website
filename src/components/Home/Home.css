@@ -9,18 +9,28 @@
   position: absolute;
   font-size: 4em;
   top: 34vh;
-  left: 8vw;
+  right: 11vw;
+  color: #125088;
 }
 
 .sh1 {
   position: absolute;
   font-size: 1.7em;
   top: 60vh;
-  left: 8.3vw;
+  right: 11.3vw;
+  color: #125088;
 }
 
 .profile {
+  position: absolute;
   filter: grayscale(60%);
   max-height: 100vh;
-  float: right;
+  left: -2vw;
+}
+
+.graphic {
+  position: absolute;
+  filter: grayscale(60%);
+  max-height: 100vh;
+  left: -2vw;
 }
