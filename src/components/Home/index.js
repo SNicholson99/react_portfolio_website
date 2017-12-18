@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Header.css';
+import './Home.css';
 import profile from "./profile.jpg";
 
-class Header extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="Header">
+      <div className="Home">
         <img className="profile" alt="Scott" src={profile} />
         <div className="header-text">
           <h1 className="title">Scott Andrew<br/>Nicholson</h1>
@@ -16,4 +16,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default Home;
