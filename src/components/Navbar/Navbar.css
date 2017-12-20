@@ -1,21 +1,42 @@
 .Navbar {
   position: fixed;
-  background-color: black;
+  background-color: #324B61;
   width: 100%;
+}
+
+.btn1 {
+  position: relative;
+  right: -25vw;
+}
+
+.btn2 {
+  position: relative;
+  right: -25vw;
+}
+
+.btn3 {
+  position: relative;
+  right: -25vw;
+}
+
+.btn4 {
+  position: relative;
+  right: -25vw;
 }
 
 .Navbar-button {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-weight: bold;
   color: white;
   background: none;
+  /* border: 4px solid white; */
   border: none;
-  padding: 15px 100px 15px 100px;
-  min-width: 10vw;
+  padding: 15px;
+  width: 12.5vw;
 }
 
 .Navbar-button:hover {
-  background-color: gray;
-  color: black;
+  background-color: white;
+  color: #324B61;
 }
