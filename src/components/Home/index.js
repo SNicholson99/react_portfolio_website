@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css';
 import graphic from "./outlineGraphic.svg";
-import profile from "./profile.jpg";
+// import profile from "./profile.jpg";
 
 class Home extends Component {
   render() {
