@@ -6,19 +6,22 @@
 }
 
 .title {
+  text-align: left;
   position: absolute;
   font-size: 4em;
   top: 34vh;
-  right: 11vw;
-  color: #324B61;
+  right: 7.5vw;
+  color: white;
+  z-index: 2;
 }
 
-.sh1 {
+.sh {
   position: absolute;
   font-size: 1.7em;
   top: 60vh;
-  right: 11.3vw;
-  color: #324B61;
+  right: 14.45vw;
+  color: #f9e614;
+  z-index: 2;
 }
 
 .profile {
@@ -26,11 +29,12 @@
   filter: grayscale(60%);
   max-height: 100vh;
   left: -2vw;
+  z-index: 2;
 }
 
 .graphic {
   position: absolute;
-  filter: grayscale(60%);
   max-height: 100vh;
   left: -2vw;
+  z-index: 2;
 }
