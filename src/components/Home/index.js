@@ -10,8 +10,8 @@ class Home extends Component {
         {/* <img className="profile" alt="Scott" src={profile} /> */}
         <img className="graphic" alt="graphic" src={graphic} />
         <div className="home-text">
-          <h1 className="title">Scott Andrew<br/>Nicholson</h1>
-          <h4 className="sh1 sh">Full Stack Developer In Training</h4>
+          <h1 className="title">SCOTT ANDREW<br/>NICHOLSON</h1>
+          <h4 className="sh">Full Stack Developer In Training</h4>
         </div>
       </div>
     );
