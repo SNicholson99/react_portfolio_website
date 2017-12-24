@@ -1,44 +1,29 @@
 .Navbar {
   position: fixed;
-  background-color: #f9e614;
-  width: 100%;
+  top: 5%;
+  right: 38%;
+  background-color: none;
+  width: 38%;
+  height: 7%;
   z-index: 5;
 }
 
-.btn1 {
+.Navbar-Link {
   position: relative;
-  right: -30vw;
-}
-
-.btn2 {
-  position: relative;
-  right: -30vw;
-}
-
-.btn3 {
-  position: relative;
-  right: -30vw;
-}
-
-.btn4 {
-  position: relative;
-  right: -30vw;
-}
-
-.Navbar-button {
+  top: 10%;
+  right: -35vw;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-weight: bold;
-  color: black;
+  color: #f9e614;
   background: none;
   border: none;
-  padding: 15px 5px 15px 5px;
+  padding: 15px 15px 15px 15px;
   width: 10vw;
 }
 
-.Navbar-button:hover {
-  background-color: black;
-  color: #f9e614;
+.Navbar-Link:hover {
+  color: white;
 }
 
 .logo {

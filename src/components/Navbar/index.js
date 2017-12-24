@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 // import logo from './logo.svg';
 
@@ -10,12 +11,14 @@ const btn4 = "GET IN TOUCH";
 class Navbar extends Component {
   render() {
     return (
-      <div className="Navbar">
-        {/* <img src={logo} alt="logo" className="logo" /> */}
-        <button className="Navbar-button btn1">{btn1}</button>
-        <button className="Navbar-button btn2">{btn2}</button>
-        <button className="Navbar-button btn3">{btn3}</button>
-        <button className="Navbar-button btn4">{btn4}</button>
+      <div>
+        <nav className="Navbar">
+          {/* <img src={logo} alt="logo" className="logo" /> */}
+          <Link to='/' className="Navbar-Link Link">{btn1}</Link>
+          <Link to='/AboutMe' className="Navbar-Link Link">{btn2}</Link>
+          <Link to='/Projects' className="Navbar-Link Link">{btn3}</Link>
+          <Link to='/GetInTouch' className="Navbar-Link Link">{btn4}</Link>
+        </nav>
       </div>
     );
   }
