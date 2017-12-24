@@ -10,6 +10,8 @@
   position: relative;
   top: 10%;
   text-align: center;
+  color: #f9e614;
+  padding: 1vw;
 }
 
 .AM-intro {
@@ -17,7 +19,32 @@
   top: 8%;
   text-align: left;
   padding: 3vw;
-  width: 55%;
+  width: 70%;
   line-height: 4vh;
   background-color: white;
+  opacity: 0.6;
+}
+
+.AM-2 {
+  position: relative;
+  color: #f9e614;
+  top: 8%;
+  left: 24%;
+  text-align: left;
+  padding: 3vw;
+  width: 70%;
+  line-height: 4vh;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.AM-3 {
+  position: relative;
+  top: 8%;
+  text-align: left;
+  padding: 3vw;
+  width: 70%;
+  line-height: 4vh;
+  background-color: white;
+  opacity: 0.6;
 }
