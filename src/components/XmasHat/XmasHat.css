@@ -5,6 +5,7 @@
   height: 200px;
   width: 200px;
   transform: rotate(27deg);
+  z-index: 10;
 }
 
 .XH-main {
