@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import './Home.css';
 import graphic from "./outlineGraphic.svg";
 // import profile from "./profile.jpg";
+import XmasHat from './../../components/XmasHat';
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
         {/* <img className="profile" alt="Scott" src={profile} /> */}
+        <XmasHat />
         <img className="graphic" alt="graphic" src={graphic} />
         <div className="home-text">
           <h1 className="title">SCOTT ANDREW<br/>NICHOLSON</h1>
