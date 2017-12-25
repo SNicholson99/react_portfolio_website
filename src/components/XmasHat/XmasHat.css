@@ -1,11 +1,21 @@
 .XH-container {
   position: absolute;
   left: 31%;
-  top: 2%;
+  top: -50%;
   height: 200px;
   width: 200px;
   transform: rotate(27deg);
   z-index: 10;
+  animation: drop 1.5s 3s 1 forwards;
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 2%;
+  }
 }
 
 .XH-main {
@@ -15,7 +25,7 @@
   height: 0%;
   border-left: 90px solid transparent;
   border-right: 90px solid transparent;
-  border-bottom: 140px solid red;
+  border-bottom: 140px solid #C62828;
 }
 
 .XH-base {
