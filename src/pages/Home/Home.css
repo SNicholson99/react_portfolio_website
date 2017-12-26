@@ -7,6 +7,20 @@
   width: 100%;
 }
 
+.home-text {
+  opacity: 0;
+  animation: fade-in 4s 2s 1 forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .title {
   text-align: center;
   position: absolute;
@@ -36,7 +50,23 @@
 
 .graphic {
   position: absolute;
-  max-height: 100vh;
+  height: 100vh;
   left: -2vw;
   z-index: 2;
+}
+
+.graphic-container {
+  animation: zoom-in 3s 0.1s 1 forwards;
+  opacity: 0;
+}
+
+@keyframes zoom-in {
+  0% {
+    height: 0vh;
+    opacity: 0;
+  }
+  100% {
+    height: 100vh;
+    opacity: 1;
+  }
 }
