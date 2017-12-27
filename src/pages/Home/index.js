@@ -4,6 +4,8 @@ import graphic from "./outlineGraphic.svg";
 // import profile from "./profile.jpg";
 import XmasHat from './../../components/XmasHat';
 import RedNose from './../../components/RedNose';
+// import RabbitEars from './../../components/RabbitEars';
+// import RabbitNose from './../../components/RabbitNose';
 
 class Home extends Component {
   render() {
@@ -13,6 +15,8 @@ class Home extends Component {
         <XmasHat />
         <div className="graphic-container">
           <img className="graphic" alt="graphic" src={graphic} />
+          {/* <RabbitEars /> */}
+          {/* <RabbitNose /> */}
           <RedNose />
         </div>
         <div className="home-text">
