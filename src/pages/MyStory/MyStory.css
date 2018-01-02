@@ -1,4 +1,4 @@
-.AboutMe {
+.MyStory {
   position: absolute;
   top: 0;
   left: 0;
@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.AM-title {
+.MS-title {
   position: relative;
   top: 10%;
   text-align: center;
@@ -14,7 +14,12 @@
   padding: 1vw;
 }
 
-.AM-intro {
+.MS-sh {
+  /* float: right; */
+  color: darkgray;
+}
+
+.MS-p1 {
   position: relative;
   top: 8%;
   text-align: left;
@@ -25,7 +30,7 @@
   opacity: 0.6;
 }
 
-.AM-2 {
+.MS-p2 {
   position: relative;
   color: #f9e614;
   top: 8%;
@@ -38,7 +43,7 @@
   opacity: 0.6;
 }
 
-.AM-3 {
+.MS-p3 {
   position: relative;
   top: 8%;
   text-align: left;
