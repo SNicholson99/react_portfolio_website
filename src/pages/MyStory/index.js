@@ -8,14 +8,14 @@ class MyStory extends Component {
         <h1 className="MS-title">My Story</h1>
         <h2 className="MS-sh">Not Your Average Developer...</h2>
         <div className="MS-p1">
-          At the age of 18, I completed sixth form with a passion for technology.
-          Not wanting to go to university for another 3 years, I searched for an alternative route into
-          the tech sector. Trudging from one apprenticeship application to another, I came to realise
-          that they weren’t for me either.
+          At the age of 18, I completed sixth form with a strong passion for technology. Not interested
+          in going to university for another 3 years, I searched for an alternative route into the tech
+          industry. Upon trudging from one apprenticeship application to another, I came to realise that
+          they weren’t for me either.
         </div>
         <div className="MS-p2">
-          Why is there a need to spend years chasing qualifications that don’t guarantee you a job anyway?
-          Top employers are interested in the skills of the employee, not the list of qualifications you
+          Why is there a need to spend years chasing qualifications that don’t guarantee you a job? Top
+          employers are interested in the skills of the employee, not the list of qualifications you
           have in that sector. A certificate will only make you appear as impressive as the peer next to
           you holding the same paperwork. To make a real impression, I needed relevant experience.
         </div>
