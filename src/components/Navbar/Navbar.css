@@ -1,46 +1,36 @@
 .Navbar {
   position: fixed;
-  top: 5%;
-  right: 38%;
-  background-color: none;
   width: 38%;
-  height: 7%;
+  height: 9%;
   z-index: 5;
-  animation: fade-in-up 2s 0.6s 1 forwards;
-  opacity: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@keyframes fade-in-up {
+@keyframes zoom-in-right {
   0% {
-    opacity: 0;
-    top: 7%;
+    left: -100vw;
   }
   100% {
-    opacity: 1;
-    top: 5%;
+    left: 0vw;
   }
 }
 
 .Navbar-Link {
   position: relative;
-  top: 10%;
-  right: -35vw;
-  text-align: center;
-  font-size: 1.4em;
+  font-size: 1.5em;
   font-weight: bold;
-  color: #f9e614;
+  color: white;
   background: none;
-  border: none;
-  padding: 15px 15px 15px 15px;
-  width: 10vw;
+  /* padding: 15px 15px 15px 15px; */
+  width: auto;
+  text-decoration: none;
+  animation: zoom-in-right 2s 0.6s 1 forwards;
 }
 
 .Navbar-Link:hover {
-  color: white;
-}
-
-.logo {
-  max-height: 5.5vh;
-  float: left;
-  padding-left: 3vw;
+  color: gray;
 }
