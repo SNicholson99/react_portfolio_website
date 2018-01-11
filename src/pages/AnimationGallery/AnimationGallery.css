@@ -1,0 +1,16 @@
+.AnimationGallery {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.AnimationGallery-title {
+  font-size: 3.4em;
+  position: relative;
+  top: 10vh;
+  color: black;
+}

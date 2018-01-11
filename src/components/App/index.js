@@ -5,6 +5,7 @@ import './App.css';
 import Home from './../../pages/Home';
 import MyStory from './../../pages/MyStory';
 import Projects from './../../pages/Projects';
+import AnimationGallery from './../../pages/AnimationGallery';
 import GetInTouch from './../../pages/GetInTouch';
 import Navbar from './../Navbar';
 // import background from './stars.jpeg';
@@ -16,6 +17,7 @@ class App extends Component {
       <div className="App">
         {/* <img src={background} className="background" alt="background"/> */}
         <Navbar />
+        <AnimationGallery />
         <Home />
         <MyStory />
         <Projects />
