@@ -5,7 +5,7 @@ class GetInTouch extends Component {
   render() {
     return (
       <div className="GetInTouch">
-        <h1 className="GIT-title">Get In Touch</h1>
+        <h1 className="GetInTouch-title text-heading">Get In Touch</h1>
         <table>
           <tr className="icon-row">
             <td className="contact-icon">

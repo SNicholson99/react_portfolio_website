@@ -1,55 +1,54 @@
 .MyStory {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 200vh;
+  left: 0vh;
   height: 100vh;
   width: 100%;
+  background-color: rgb(134, 207, 143);
 }
 
-.MS-title {
+.MyStory-title {
+  opacity: 0;
   position: relative;
-  top: 10%;
-  text-align: center;
-  color: #f9e614;
-  padding: 1vw;
+  top: 10vh;
+  font-size: 3.4em;
+  animation: fade-in 2s 1s 1 forwards;
 }
 
-.MS-sh {
-  /* float: right; */
-  color: darkgray;
-}
-
-.MS-p1 {
+.MyStory-subheading1 {
+  opacity: 0;
   position: relative;
-  top: 8%;
-  text-align: left;
-  padding: 3vw;
-  width: 70%;
-  line-height: 4vh;
-  background-color: white;
-  opacity: 0.6;
+  top: 8vh;
+  animation: fade-in 3s 2s 1 forwards;
 }
 
-.MS-p2 {
+.MyStory-body {
+  opacity: 0;
   position: relative;
-  color: #f9e614;
-  top: 8%;
-  left: 24%;
-  text-align: left;
-  padding: 3vw;
-  width: 70%;
-  line-height: 4vh;
-  background-color: black;
-  opacity: 0.6;
+  top: 6vh;
+  padding: 3vh 18vw 3vh 18vw;
+  animation: fade-in 4s 3s 1 forwards;
 }
 
-.MS-p3 {
+.MyStory-subheading2 {
   position: relative;
-  top: 8%;
-  text-align: left;
-  padding: 3vw;
-  width: 70%;
-  line-height: 4vh;
-  background-color: white;
-  opacity: 0.6;
+  top: 6vh;
+  padding: 0vh 3vh 0vh 3vh;
+}
+
+.MyStory-kayaker {
+  opacity: 0;
+  animation: fade-in 1s 7s 1 forwards;
+}
+
+.MyStory-climber {
+  opacity: 0;
+  position: relative;
+  padding: 0vh 30vh 0vh 30vh;
+  animation: fade-in 1s 8s 1 forwards;
+}
+
+.MyStory-coder {
+  opacity: 0;
+  animation: fade-in 1s 9s 1 forwards;
 }

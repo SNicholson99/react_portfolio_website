@@ -1,0 +1,12 @@
+.graphic-image {
+  height: 100%;
+}
+
+.graphic-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  animation: fade-in 3s 0.1s 1 forwards;
+}
