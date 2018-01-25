@@ -2,19 +2,19 @@
   position: absolute;
   width: 15vw;
   height: 15vw;
-  left: 10vw;
-  top: 24vh;
   z-index: 1;
 }
 
 .toaster-main {
   position: absolute;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   border-radius: 10%;
   height: 70%;
-  width: 100%;
+  width: 95%;
   bottom: 0;
   z-index: 4;
+  border: black 2px solid;
+  right: 0;
 }
 
 .toaster-dial {
@@ -26,7 +26,14 @@
   bottom: 10%;
   right: 16%;
   z-index: 5;
-  animation: turn-dial 2s 0s infinite;
+}
+
+.toaster-container:hover .toaster-dial{
+  animation: turn-dial 6s infinite;
+}
+
+.toaster-container:hover .toaster-smoke{
+  animation: smoke 6s infinite;
 }
 
 .toaster-dial-marking {
@@ -62,7 +69,21 @@
   top: 44%;
   left: 20%;
   z-index: 6;
-  animation: pull-handle 2s 0s infinite;
+}
+
+.toaster-container:hover .toaster-handle {
+  animation: pull-handle 6s infinite forwards;
+}
+
+.toaster-smoke {
+  position: absolute;
+  background-image: url(Smoke.png);
+  z-index: 8;
+  height: 100%;
+  width: 140%;
+  top: -70%;
+  left: -20%;
+  opacity: 0;
 }
 
 .toaster-toast-1 {
@@ -70,12 +91,16 @@
   background-color: rgb(159, 140, 119);
   border: solid rgb(115, 101, 85) 1vw;
   width: 70%;
-  height: 70%;
+  height: 30%;
   z-index: 2;
   border-radius: 10%;
   left: 14%;
   transform: rotate(3deg);
-  bottom: 18%;
+  top: 0%;
+}
+
+.toaster-container:hover .toaster-toast-1, .toaster-container:hover .toaster-toast-2 {
+  animation: bread-down 6s infinite forwards;
 }
 
 .toaster-toast-2 {
@@ -83,18 +108,20 @@
   background-color: rgb(159, 140, 119);
   border: solid rgb(115, 101, 85) 1vw;
   width: 70%;
-  height: 70%;
+  height: 30%;
   z-index: 3;
   border-radius: 10%;
   left: 8%;
   transform: rotate(-2deg);
-  top: 2vh;
-  bottom: 18%;
+  top: 0%;
 }
 
 @keyframes turn-dial {
   0% {
     transform: rotate(-140deg);
+  }
+  20% {
+    transform: rotate(50deg);
   }
   100% {
     transform: rotate(50deg);
@@ -102,10 +129,61 @@
 }
 
 @keyframes pull-handle {
-  0% {
+  20% {
     top: 44%;
   }
-  100% {
+  51% {
     top: 80%;
+  }
+  60% {
+    top: 44%;
+  }
+}
+
+@keyframes bread-down {
+  20% {
+    top: 0%;
+    background-color: rgb(159, 140, 119);
+    border: solid rgb(115, 101, 85) 1vw;
+  }
+  50% {
+    top: 30%;
+    background-color: rgb(159, 140, 119);
+    border: solid rgb(115, 101, 85) 1vw;
+  }
+  51% {
+    top: 30%;
+    background-color: rgb(85, 75, 63);
+    border: solid rgb(73, 64, 54) 1vw;
+  }
+  60% {
+    top: 0%;
+    background-color: rgb(85, 75, 63);
+    border: solid rgb(73, 64, 54) 1vw;
+  }
+  90% {
+    top: 0%;
+    background-color: rgb(85, 75, 63);
+    border: solid rgb(73, 64, 54) 1vw;
+  }
+  100% {
+    top: 0%;
+    background-color: rgb(159, 140, 119);
+    border: solid rgb(115, 101, 85) 1vw;
+  }
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 0;
+  }
+  51% {
+    opacity: 0;
+  }
+  52% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
   }
 }

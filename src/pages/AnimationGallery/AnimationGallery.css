@@ -13,4 +13,11 @@
   position: relative;
   top: 10vh;
   color: black;
+  padding-bottom: 10vh;
+}
+
+.animation-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
 }

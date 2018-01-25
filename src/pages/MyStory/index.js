@@ -4,7 +4,7 @@ import './MyStory.css';
 class MyStory extends Component {
   render() {
     return (
-      <div className="MyStory">
+      <div id="MyStory" className="MyStory">
         <h1 className="MyStory-title text-heading">My Story</h1>
         <h2 className="MyStory-subheading1 text-subheading">Not Your Average Developer...</h2>
         <div className="MyStory-body text-body">
@@ -22,7 +22,7 @@ class MyStory extends Component {
         <div className="MyStory-body text-body">
           After long deliberation and unfruitful research, I was beginning to lose hope of my career in
           technology. I was in the process of applying for engineering apprenticeships when a friend
-          contacted me with information about a <a href="http://bootcamp.schoolofcode.co.uk/" target="_blank">Bootcamp</a> – a 16 week course which launches everyday people
+          contacted me with information about a <a href="http://bootcamp.schoolofcode.co.uk/" target="_blank" rel="noopener noreferrer">Bootcamp</a> – a 16 week course which launches everyday people
           into the exciting tech world. Through the use of different teaching methods, the course strives
           to take individuals from the bare basics to full-stack developers.
         </div>

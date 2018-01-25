@@ -1,24 +1,33 @@
 .speaker-container {
   position: relative;
-  top: 10vh;
-  left: 40vw;
-  height: 220px;
-  width: 150px;
+  height: 14vw;
+  width: 24vw;
+  /* background-color: lightblue; */
 }
 
-.speaker-container:hover{
+.speaker-container:hover .speaker-bottom, .speaker-container:hover .speaker-top{
   animation: vibrate 0.5s 0s infinite;
 }
 
 .speaker-base {
-  width: 100%;
+  width: 30%;
   height: 100%;
   background-color: black;
   border-radius: 8%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.speaker-base-left {
+  position: absolute;
+  left: 0;
+}
+
+.speaker-base-right {
+  position: absolute;
+  right: 0;
 }
 
 .speaker-top {
@@ -27,7 +36,7 @@
   width: 1vw;
   border-radius: 50%;
   background-color: black;
-  border: ridge gray 20px;
+  border: ridge gray 1.3vw;
 }
 
 .speaker-bottom {
@@ -36,8 +45,51 @@
   width: 2vw;
   border-radius: 50%;
   background-color: black;
-  border: ridge gray 40px;
+  border: ridge gray 2vw;
   bottom: 0%;
+}
+
+.speaker-console {
+  position: absolute;
+  height: 85%;
+  width: 40%;
+  background-color: silver;
+  bottom: 0;
+  left: 30%;
+  border: 3px black solid;
+  box-sizing: border-box;
+}
+
+.speaker-display {
+  position: relative;
+  background-color: black;
+  width: 80%;
+  height: 20%;
+  border-radius: 10%;
+  left: 10%;
+  top: 10%;
+}
+
+.speaker-light-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.speaker-light {
+  margin-top: 4vw;
+  /* margin-left: 1vw; */
+  /* margin-right: 1vw; */
+  position: relative;
+  height: 0.5vw;
+  width: 0.5vw;
+  background-color: green;
+  border-radius: 50%;
+  border: solid black 0.05vw;
+}
+
+.speaker-light-red {
+  background-color: red;
 }
 
 @keyframes vibrate {
@@ -45,7 +97,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(0.99);
+    transform: scale(0.85);
   }
   100% {
     transform: scale(1);

@@ -4,7 +4,7 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: pink;
+  background-color: lightgray;
 }
 
 .GetInTouch-title {
@@ -14,40 +14,15 @@
   color: black;
 }
 
-table {
+tbody {
   position: relative;
   top: 22vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .fa {
   zoom: 200%;
-  margin: 10px;
-  color: none;
-  animation: colourChange 6s 0s infinite;
-}
-
-.icon-row {
-  position: absolute;
-  top: 35%;
-}
-
-@keyframes colourChange {
-  0% {
-    animation-fill-mode: ease-in;
-    color: lightblue;
-  }
-  50% {
-    color: rgb(134, 207, 143);
-    animation-fill-mode: ease;
-  }
-  99% {
-    color: rgb(117, 141, 208);
-    animation-fill-mode: ease;
-  }
-  100% {
-    color: lightblue;
-    animation-fill-mode: ease-out;
-  }
+  margin: 15px;
+  color: darkblue;
 }
