@@ -4,51 +4,71 @@
   left: 0vh;
   height: 100vh;
   width: 100%;
-  background-color: rgb(134, 207, 143);
+  background: linear-gradient(#c8e6c9, #58e75c);
 }
 
 .MyStory-title {
-  opacity: 0;
+  /* opacity: 0; */
   position: relative;
   top: 10vh;
-  font-size: 3.4em;
-  animation: fade-in 2s 1s 1 forwards;
+  font-size: 4.5em;
+  /* animation: fade-in 2s 1s 1 forwards; */
 }
 
-.MyStory-subheading1 {
-  opacity: 0;
+.MyStory-subheading {
+  /* opacity: 0; */
   position: relative;
-  top: 8vh;
-  animation: fade-in 3s 2s 1 forwards;
+  top: 6vh;
+  left: -30vw;
+  /* animation: fade-in 3s 2s 1 forwards; */
 }
 
 .MyStory-body {
-  opacity: 0;
+  /* opacity: 0; */
   position: relative;
   top: 6vh;
-  padding: 3vh 18vw 3vh 18vw;
-  animation: fade-in 4s 3s 1 forwards;
+  left: 10vw;
+  padding: 1vw;
+  /* animation: fade-in 4s 3s 1 forwards; */
+  max-width: 45%;
 }
 
-.MyStory-subheading2 {
-  position: relative;
-  top: 6vh;
-  padding: 0vh 3vh 0vh 3vh;
+.MyStory-activity-container {
+  position: absolute;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.MyStory-kayaker {
+.MyStory-kayaker-container {
+  top: 55vh;
+  right: 25vw;
+  /* background-color: gray; */
   opacity: 0;
-  animation: fade-in 1s 7s 1 forwards;
+  animation: fade-in 1s 1s 1 forwards;
 }
 
-.MyStory-climber {
+.MyStory-climber-container {
+  top: 55vh;
+  right: 5vw;
+  /* background-color: red; */
   opacity: 0;
-  position: relative;
-  padding: 0vh 30vh 0vh 30vh;
-  animation: fade-in 1s 8s 1 forwards;
+  animation: fade-in 1s 2s 1 forwards;
 }
 
-.MyStory-coder {
+.MyStory-coder-container {
+  top: 20vh;
+  right: 15vw;
+  /* background-color: orange; */
   opacity: 0;
-  animation: fade-in 1s 9s 1 forwards;
+  animation: fade-in 1s 3s 1 forwards;
+}
+
+.MyStory-image {
+  height: 10vw;
+  width: 12vw;
+  border-radius: 10%;
 }

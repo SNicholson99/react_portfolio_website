@@ -1,8 +1,7 @@
 .speaker-container {
   position: relative;
-  height: 14vw;
-  width: 24vw;
-  /* background-color: lightblue; */
+  height: 8vw;
+  width: 15vw;
 }
 
 .speaker-container:hover .speaker-bottom, .speaker-container:hover .speaker-top{
@@ -32,20 +31,20 @@
 
 .speaker-top {
   position: relative;
-  height: 1vw;
-  width: 1vw;
+  height: 0.5vw;
+  width: 0.5vw;
   border-radius: 50%;
   background-color: black;
-  border: ridge gray 1.3vw;
+  border: ridge gray 0.9vw;
 }
 
 .speaker-bottom {
   position: relative;
-  height: 2vw;
-  width: 2vw;
+  height: 1vw;
+  width: 1vw;
   border-radius: 50%;
   background-color: black;
-  border: ridge gray 2vw;
+  border: ridge gray 1.5vw;
   bottom: 0%;
 }
 
@@ -77,19 +76,38 @@
 }
 
 .speaker-light {
-  margin-top: 4vw;
-  /* margin-left: 1vw; */
-  /* margin-right: 1vw; */
+  margin-top: 1.2vw;
   position: relative;
-  height: 0.5vw;
-  width: 0.5vw;
-  background-color: green;
+  height: 0.4vw;
+  width: 0.4vw;
   border-radius: 50%;
   border: solid black 0.05vw;
+  background-color: red;
 }
 
-.speaker-light-red {
-  background-color: red;
+.speaker-container:hover .speaker-light-1 {
+  animation: light-change 4s 1s infinite;
+}
+.speaker-container:hover .speaker-light-2 {
+  animation: light-change 4s 0s infinite;
+}
+.speaker-container:hover .speaker-light-3 {
+  animation: light-change 4s 2s infinite;
+}
+
+.speaker-dial-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.speaker-dial {
+  margin-top: 0.8vw;
+  position: relative;
+  background: linear-gradient(to bottom right, black, gray);
+  height: 1.8vw;
+  width: 1.8vw;
+  border-radius: 50%;
+  border: 0.05vw black solid;
 }
 
 @keyframes vibrate {
@@ -97,9 +115,21 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(0.85);
+    transform: scale(0.9);
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes light-change {
+  0% {
+    background-color: green;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
   }
 }

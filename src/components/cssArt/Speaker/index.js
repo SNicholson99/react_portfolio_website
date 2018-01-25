@@ -17,9 +17,13 @@ class Speaker extends Component {
         <div className="speaker-console">
           <div className="speaker-display" />
           <div className="speaker-light-container">
-            <div className="speaker-light" />
-            <div className="speaker-light" />
-            <div className="speaker-light speaker-light-red" />
+            <div className="speaker-light speaker-light-1" />
+            <div className="speaker-light speaker-light-2" />
+            <div className="speaker-light speaker-light-3" />
+          </div>
+          <div className="speaker-dial-container">
+            <div className="speaker-dial" />
+            <div className="speaker-dial" />
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
 .toaster-container {
-  position: absolute;
-  width: 15vw;
-  height: 15vw;
+  position: relative;
+  width: 10vw;
+  height: 10vw;
   z-index: 1;
+  top: -1.6vw;
 }
 
 .toaster-main {
@@ -13,7 +14,7 @@
   width: 95%;
   bottom: 0;
   z-index: 4;
-  border: black 2px solid;
+  border: black 0.2vw solid;
   right: 0;
 }
 
@@ -42,8 +43,8 @@
   height: 30%;
   width: 8%;
   left: 68%;
-  top: 18%;
   transform: rotate(50deg);
+  top: 18%;
   z-index: 6;
 }
 
@@ -52,7 +53,7 @@
   background-color: black;
   width: 10%;
   height: 50%;
-  border: solid gray 0.8vw;
+  border: solid gray 0.4vw;
   box-sizing: border-box;
   top: 40%;
   left: 25%;
@@ -64,7 +65,7 @@
   background-color: silver;
   width: 20%;
   height: 0%;
-  border: outset silver 0.8vw;
+  border: outset silver 0.6vw;
   box-sizing: border-box;
   top: 44%;
   left: 20%;
@@ -80,16 +81,16 @@
   background-image: url(Smoke.png);
   z-index: 8;
   height: 100%;
-  width: 140%;
+  width: 160%;
   top: -70%;
-  left: -20%;
+  left: -40%;
   opacity: 0;
 }
 
 .toaster-toast-1 {
   position: absolute;
   background-color: rgb(159, 140, 119);
-  border: solid rgb(115, 101, 85) 1vw;
+  border: solid rgb(115, 101, 85) 0.7vw;
   width: 70%;
   height: 30%;
   z-index: 2;
@@ -106,7 +107,7 @@
 .toaster-toast-2 {
   position: absolute;
   background-color: rgb(159, 140, 119);
-  border: solid rgb(115, 101, 85) 1vw;
+  border: solid rgb(115, 101, 85) 0.7vw;
   width: 70%;
   height: 30%;
   z-index: 3;
@@ -144,32 +145,32 @@
   20% {
     top: 0%;
     background-color: rgb(159, 140, 119);
-    border: solid rgb(115, 101, 85) 1vw;
+    border: solid rgb(115, 101, 85) 0.7vw;
   }
   50% {
     top: 30%;
     background-color: rgb(159, 140, 119);
-    border: solid rgb(115, 101, 85) 1vw;
+    border: solid rgb(115, 101, 85) 0.7vw;
   }
   51% {
     top: 30%;
     background-color: rgb(85, 75, 63);
-    border: solid rgb(73, 64, 54) 1vw;
+    border: solid rgb(73, 64, 54) 0.7vw;
   }
   60% {
     top: 0%;
     background-color: rgb(85, 75, 63);
-    border: solid rgb(73, 64, 54) 1vw;
+    border: solid rgb(73, 64, 54) 0.7vw;
   }
   90% {
     top: 0%;
     background-color: rgb(85, 75, 63);
-    border: solid rgb(73, 64, 54) 1vw;
+    border: solid rgb(73, 64, 54) 0.7vw;
   }
   100% {
     top: 0%;
     background-color: rgb(159, 140, 119);
-    border: solid rgb(115, 101, 85) 1vw;
+    border: solid rgb(115, 101, 85) 0.7vw;
   }
 }
 

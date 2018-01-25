@@ -9,7 +9,7 @@ class Projects extends Component {
       <div id="Projects" className="Projects">
         <h1 className="Projects-title text-heading">Projects</h1>
         <br/><br/><br/>
-        <GridList />
+        <div className="GridList"><GridList /></div>
       </div>
     );
   }

@@ -2,7 +2,7 @@
   position: absolute;
   left: 0vh;
   top: 0vh;
-  background-color: lightblue;
+  background: linear-gradient(#d1eaff, #1d8fee);
   height: 100vh;
   width: 100%;
 }
@@ -24,7 +24,7 @@
 .title {
   text-align: center;
   position: absolute;
-  font-size: 5em;
+  font-size: 5.5em;
   top: 30vh;
   left: 55vw;
   color: black;
@@ -35,8 +35,8 @@
   position: absolute;
   font-size: 2em;
   top: 60vh;
-  left: 56vw;
-  color: gray;
+  left: 57vw;
+  color: black;
   z-index: 2;
 }
 

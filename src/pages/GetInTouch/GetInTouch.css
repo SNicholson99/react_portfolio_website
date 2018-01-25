@@ -4,11 +4,11 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: lightgray;
+  background: linear-gradient(#FFCDD2, #f43d4f);
 }
 
 .GetInTouch-title {
-  font-size: 3.4em;
+  font-size: 4.5em;
   position: relative;
   top: 10vh;
   color: black;
@@ -16,7 +16,7 @@
 
 tbody {
   position: relative;
-  top: 22vh;
+  top: 18vh;
   display: flex;
   justify-content: space-between;
 }
@@ -24,5 +24,27 @@ tbody {
 .fa {
   zoom: 200%;
   margin: 15px;
-  color: darkblue;
+  color: black;
+}
+
+.fa:hover {
+  animation: shudder 0.1s 0s infinite;
+}
+
+@keyframes shudder {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

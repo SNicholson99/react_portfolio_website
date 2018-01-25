@@ -1,84 +1,83 @@
 import React from 'react';
 import {GridList, GridTile} from 'material-ui/GridList';
-import IconButton from 'material-ui/IconButton';
-import StarBorder from 'material-ui/svg-icons/toggle/star-border';
 
 const styles = {
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'space-around',
+    width: "80vw",
+    position: 'relative',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
   gridList: {
-    width: 900,
-    height: 450,
-    overflowY: 'auto',
+    display: 'flex',
+    flexWrap: 'nowrap',
+    overflowX: 'auto',
+  },
+  titleStyle: {
+    color: 'white',
+    textAlign: 'center',
   },
 };
 
 const tilesData = [
   {
-    img: './projectImgs/dellCRM.png',
-    alt: 'Dell EMC CRM',
-    title: 'Dell EMC CRM',
-    featured: true,
-  },
-  {
-    img: './projectImgs/socWebsite.png',
+    img: '/projectImgs/socWebsite.png',
+    href: 'https://github.com/SchoolOfCode/final-project-soc-website',
     alt: 'School of Code Website',
     title: 'School Of Code Website',
   },
   {
-    img: './projectImgs/mountainApp.png',
+    img: '/projectImgs/dellCRM.png',
+    href: 'https://github.com/SchoolOfCode/dell-project-week-katastrophic',
+    alt: 'Dell EMC CRM',
+    title: 'Dell EMC CRM',
+  },
+  {
+    img: '/projectImgs/mountainApp.png',
+    href: 'https://github.com/SNicholson99/mountainWebsite',
     alt: 'Mountain App',
     title: 'Mountain App',
   },
   {
-    img: './projectImgs/teamWebsite.png',
+    img: '/projectImgs/teamWebsite.png',
+    href: 'https://github.com/SchoolOfCode/team-porfolio-the-ark',
     alt: 'Team Portfolio Website',
     title: 'Team Portfolio Website',
-    featured: true,
   },
   {
-    img: './projectImgs/socketTimer.png',
+    img: '/projectImgs/socketTimer.png',
+    href: 'https://github.com/SNicholson99/react_SocketTimer',
     alt: 'Socket Timer',
     title: 'Socket Timer',
   },
   {
-    img: './projectImgs/trafficLight.png',
+    img: '/projectImgs/trafficLight.png',
+    href: 'https://github.com/SchoolOfCode/traffic-lights-task-SNicholson99',
     alt: 'CSS Traffic Light',
     title: 'CSS Traffic Light',
   },
 ];
 
-/**
-s * This example demonstrates "featured" tiles, using the `rows` and `cols` props to adjust the size of the tile.
- * The tiles have a customised title, positioned at the top and with a custom gradient `titleBackground`.
- */
-const GridListExampleComplex = () => (
+const GridListExampleSingleLine = () => (
   <div style={styles.root}>
-    <GridList
-      cols={2}
-      cellHeight={200}
-      padding={1}
-      style={styles.gridList}
-    >
+    <GridList style={styles.gridList} cols={2}>
       {tilesData.map((tile) => (
-        <GridTile
-          key={tile.img}
-          title={tile.title}
-          actionIcon={<IconButton><StarBorder color="white" /></IconButton>}
-          actionPosition="left"
-          titlePosition="top"
-          titleBackground="linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
-          cols={tile.featured ? 2 : 1}
-          rows={tile.featured ? 2 : 1}
-        >
-          <img alt={tile.alt} src={tile.img} />
-        </GridTile>
+        <a target="_blank" href={tile.href}>
+          <GridTile
+            key={tile.img}
+            title={tile.title}
+            titleStyle={styles.titleStyle}
+            titleBackground="linear-gradient(to top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%)"
+          >
+            <img src={tile.img} alt={tile.alt} />
+          </GridTile>
+        </a>
       ))}
     </GridList>
   </div>
 );
 
-export default GridListExampleComplex;
+export default GridListExampleSingleLine;
