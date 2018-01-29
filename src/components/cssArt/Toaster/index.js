@@ -6,6 +6,7 @@ const Toaster = (props) => {
   return (
     <div className="toaster-container">
       <div className="toaster-main" />
+      <div className="toaster-shadow" />
       <div className="toaster-dial">
         <div className="toaster-dial-marking" />
       </div>
@@ -13,6 +14,7 @@ const Toaster = (props) => {
       <div className="toaster-handle" />
       <div className="toaster-toast-1" />
       <div className="toaster-toast-2" />
+      <div className="toaster-smoke" />
     </div>
   )
 }

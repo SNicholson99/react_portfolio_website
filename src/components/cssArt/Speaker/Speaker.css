@@ -1,0 +1,135 @@
+.speaker-container {
+  position: relative;
+  height: 8vw;
+  width: 15vw;
+}
+
+.speaker-container:hover .speaker-bottom, .speaker-container:hover .speaker-top{
+  animation: vibrate 0.5s 0s infinite;
+}
+
+.speaker-base {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+  border-radius: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.speaker-base-left {
+  position: absolute;
+  left: 0;
+}
+
+.speaker-base-right {
+  position: absolute;
+  right: 0;
+}
+
+.speaker-top {
+  position: relative;
+  height: 0.5vw;
+  width: 0.5vw;
+  border-radius: 50%;
+  background-color: black;
+  border: ridge gray 0.9vw;
+}
+
+.speaker-bottom {
+  position: relative;
+  height: 1vw;
+  width: 1vw;
+  border-radius: 50%;
+  background-color: black;
+  border: ridge gray 1.5vw;
+  bottom: 0%;
+}
+
+.speaker-console {
+  position: absolute;
+  height: 85%;
+  width: 40%;
+  background-color: silver;
+  bottom: 0;
+  left: 30%;
+  border: 3px black solid;
+  box-sizing: border-box;
+}
+
+.speaker-display {
+  position: relative;
+  background-color: black;
+  width: 80%;
+  height: 20%;
+  border-radius: 10%;
+  left: 10%;
+  top: 10%;
+}
+
+.speaker-light-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.speaker-light {
+  margin-top: 1.2vw;
+  position: relative;
+  height: 0.4vw;
+  width: 0.4vw;
+  border-radius: 50%;
+  border: solid black 0.05vw;
+  background-color: red;
+}
+
+.speaker-container:hover .speaker-light-1 {
+  animation: light-change 4s 1s infinite;
+}
+.speaker-container:hover .speaker-light-2 {
+  animation: light-change 4s 0s infinite;
+}
+.speaker-container:hover .speaker-light-3 {
+  animation: light-change 4s 2s infinite;
+}
+
+.speaker-dial-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.speaker-dial {
+  margin-top: 0.8vw;
+  position: relative;
+  background: linear-gradient(to bottom right, black, gray);
+  height: 1.8vw;
+  width: 1.8vw;
+  border-radius: 50%;
+  border: 0.05vw black solid;
+}
+
+@keyframes vibrate {
+  0%{
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes light-change {
+  0% {
+    background-color: green;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: green;
+  }
+}
