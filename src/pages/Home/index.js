@@ -10,7 +10,7 @@ import ProfileGraphic from './../../components/ProfileGraphic';
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div id="Home" className="Home">
         {/* <img className="profile" alt="Scott" src={profile} /> */}
         {/* <XmasHat /> */}
         <ProfileGraphic />

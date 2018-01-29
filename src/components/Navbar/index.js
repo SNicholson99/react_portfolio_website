@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 // import logo from './logo.svg';
+
+// import Home from './../../pages/Home';
+// import MyStory from './../../pages/MyStory';
+// import Projects from './../../pages/Projects';
+// import AnimationGallery from './../../pages/AnimationGallery';
+// import GetInTouch from './../../pages/GetInTouch';
 
 const btn1 = "HOME";
 const btn2 = "ANIMATION GALLERY";
@@ -18,11 +23,11 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="Navbar text-subheading">
-          <Link to='/Home' className="Navbar-Link Link">{btn1}</Link>
-          <Link to='/AnimationGallery' className="Navbar-Link Link">{btn2}</Link>
-          <Link to='/MyStory' className="Navbar-Link Link">{btn3}</Link>
-          <Link to='/Projects' className="Navbar-Link Link">{btn4}</Link>
-          <Link to='/GetInTouch' className="Navbar-Link Link">{btn5}</Link>
+          <a href="#Home" className="Navbar-Link Link">{btn1}</a>
+          <a href="#AnimationGallery" className="Navbar-Link Link">{btn2}</a>
+          <a href="#MyStory" className="Navbar-Link Link">{btn3}</a>
+          <a href="#Projects" className="Navbar-Link Link">{btn4}</a>
+          <a href="#GetInTouch" className="Navbar-Link Link">{btn5}</a>
         </nav>
       </div>
     );

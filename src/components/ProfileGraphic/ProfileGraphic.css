@@ -1,5 +1,10 @@
-.graphic-image {
+.graphic {
   height: 100%;
+  transition: transform 1s cubic-bezier(0.18, -0.68, 0.36, 1.8);
+}
+
+.hidden {
+  transform: translateX(-100%);
 }
 
 .graphic-container {
@@ -8,5 +13,4 @@
   left: 0;
   z-index: 2;
   height: 100vh;
-  animation: fade-in 3s 0.1s 1 forwards;
 }

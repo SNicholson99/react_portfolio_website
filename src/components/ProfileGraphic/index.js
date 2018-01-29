@@ -8,7 +8,7 @@ class ProfileGraphic extends Component {
     return (
       <div className="profile-graphic">
         <div className="graphic-container">
-          <img className="graphic-image" alt="graphic image" src={graphic} />
+          <img className="graphic" alt="graphic" src={graphic} />
         </div>
       </div>
     );
