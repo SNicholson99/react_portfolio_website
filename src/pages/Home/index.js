@@ -11,12 +11,7 @@ class Home extends Component {
 	render() {
 		return (
 			<div id="Home" className="Home">
-				{/* <img className="profile" alt="Scott" src={profile} /> */}
-				{/* <XmasHat /> */}
 				<ProfileGraphic />
-				{/* <RabbitEars /> */}
-				{/* <RabbitNose /> */}
-				{/* <RedNose /> */}
 				<div className="home-text">
 					<h1 className="title text-heading">
 						Scott Andrew<br />Nicholson
@@ -25,6 +20,10 @@ class Home extends Component {
 						Full Stack Developer In Training
 					</h4>
 				</div>
+				<i
+					className="fa fa-angle-double-down fa-5x arrow-down"
+					aria-hidden="true"
+				/>
 			</div>
 		);
 	}
