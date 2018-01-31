@@ -1,23 +1,23 @@
 .AnimationGallery {
-  position: absolute;
-  top: 100vh;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(#FFF9C4, #ecdb4a);
-  box-sizing: border-box;
+	position: absolute;
+	top: 100vh;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(#fff9c4, #ecdb4a);
+	box-sizing: border-box;
 }
 
 .AnimationGallery-title {
-  font-size: 4.5em;
-  position: relative;
-  top: 10vh;
-  color: black;
-  padding-bottom: 28vh;
+	font-size: 4.5em;
+	position: relative;
+	top: 10vh;
+	color: #353531;
+	padding-bottom: 28vh;
 }
 
 .animation-container {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
 }
