@@ -1,10 +1,10 @@
 .GetInTouch {
-	position: absolute;
-	top: 400vh;
-	left: 0;
-	height: 100vh;
-	width: 100%;
-	background: linear-gradient(#ffcdd2, #f43d4f);
+  position: absolute;
+  top: 400vh;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#f7b5bb, #f4707d);
 }
 
 .GetInTouch-title {
@@ -14,17 +14,17 @@
 	color: #353531;
 }
 
-.contact-icon {
-	zoom: 200%;
-	margin: 15px;
-	color: #353531;
+.GetInTouch-icon-container {
+  position: relative;
+  top: 18vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.contact-icon-container {
-	position: absolute;
-	top: 40vh;
-	display: flex;
-	flex-wrap: wrap;
+.fa {
+  zoom: 200%;
+  color: black;
 }
 
 .contact-icon:hover {

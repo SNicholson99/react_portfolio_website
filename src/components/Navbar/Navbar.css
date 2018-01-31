@@ -36,8 +36,25 @@
   text-decoration: none;
   animation: zoom-in-right 2s 0.6s 1 forwards;
   opacity: 0;
+  flex: 1 0 auto;
 }
 
-.Navbar-Link:hover {
-  color: gray;
+.Nav-btn1:hover {
+  color: #4ea7f1;
+}
+
+.Nav-btn2:hover {
+  color: #e9dc5b;
+}
+
+.Nav-btn3:hover {
+  color: #6be86e;
+}
+
+.Nav-btn4:hover {
+  color: #7383e6;
+}
+
+.Nav-btn5:hover {
+  color: #f47985;
 }

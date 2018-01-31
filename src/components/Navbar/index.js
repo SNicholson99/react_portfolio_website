@@ -23,11 +23,36 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="Navbar text-subheading">
-          <a href="#Home" className="Navbar-Link Link">{btn1}</a>
-          <a href="#AnimationGallery" className="Navbar-Link Link">{btn2}</a>
-          <a href="#MyStory" className="Navbar-Link Link">{btn3}</a>
-          <a href="#Projects" className="Navbar-Link Link">{btn4}</a>
-          <a href="#GetInTouch" className="Navbar-Link Link">{btn5}</a>
+          <a
+            href="#Home"
+            className="Nav-btn1 Navbar-Link Link"
+            >
+            {btn1}
+          </a>
+          <a
+            href="#AnimationGallery"
+            className="Nav-btn2 Navbar-Link Link"
+            >
+            {btn2}
+          </a>
+          <a
+            href="#MyStory"
+            className="Nav-btn3 Navbar-Link Link"
+            >
+            {btn3}
+          </a>
+          <a
+            href="#Projects"
+            className="Nav-btn4 Navbar-Link Link"
+            >
+            {btn4}
+          </a>
+          <a
+            href="#GetInTouch"
+            className="Nav-btn5 Navbar-Link Link"
+            >
+            {btn5}
+          </a>
         </nav>
       </div>
     );

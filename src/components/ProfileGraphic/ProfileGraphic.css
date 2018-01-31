@@ -1,10 +1,17 @@
 .graphic {
-	height: 100%;
-	transition: transform 1s cubic-bezier(0.18, -0.68, 0.36, 1.8);
+  height: 100%;
+  /* transition: transform 1s cubic-bezier(0.18, -0.68, 0.36, 1.8); */
+  transform: translateX(-100%);
+  animation: scroll-in 4s 2s 1 forwards;
 }
 
-.hidden {
-	transform: translateX(-100%);
+@keyframes scroll-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .graphic-container {
