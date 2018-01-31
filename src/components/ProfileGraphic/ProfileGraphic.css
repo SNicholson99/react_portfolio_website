@@ -15,9 +15,9 @@
 }
 
 .graphic-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  height: 100vh;
+	position: absolute;
+	bottom: 0;
+	left: 6vw;
+	z-index: 2;
+	height: 80vh;
 }

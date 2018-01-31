@@ -8,10 +8,10 @@
 }
 
 .GetInTouch-title {
-  font-size: 4.5em;
-  position: relative;
-  top: 10vh;
-  color: black;
+	font-size: 4.5em;
+	position: relative;
+	top: 10vh;
+	color: #353531;
 }
 
 .GetInTouch-icon-container {
@@ -27,24 +27,24 @@
   color: black;
 }
 
-.fa:hover {
-  animation: shudder 0.1s 0s infinite;
+.contact-icon:hover {
+	animation: shudder 0.1s 0s infinite;
 }
 
 @keyframes shudder {
-  0% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(2deg);
-  }
-  50% {
-    transform: rotate(0deg);
-  }
-  75% {
-    transform: rotate(-2deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(2deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(-2deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
 }
