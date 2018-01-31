@@ -18,3 +18,7 @@
   text-align: left;
   font-family: 'Nunito', sans-serif;
 }
+
+body {
+  cursor: default;
+}
