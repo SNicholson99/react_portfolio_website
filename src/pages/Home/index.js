@@ -20,10 +20,12 @@ class Home extends Component {
 						Full Stack Developer In Training
 					</h4>
 				</div>
-				<i
-					className="fa fa-angle-double-down fa-5x arrow-down"
-					aria-hidden="true"
-				/>
+				<div className="arrow-down-container">
+					<i
+						className="fa fa-angle-double-down fa-5x arrow-down clickable"
+						aria-hidden="true"
+					/>
+				</div>
 			</div>
 		);
 	}

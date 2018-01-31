@@ -2,7 +2,8 @@
 	position: absolute;
 	left: 0vh;
 	top: 0vh;
-	background: linear-gradient(#d1eaff, #1d8fee);
+	background-color: #eeebdc;
+	/* background: radial-gradient(#eeebdc, #c1c1bf); */
 	height: 100vh;
 	width: 100%;
 }
@@ -27,7 +28,7 @@
 	font-size: 5.5em;
 	top: 30vh;
 	left: 50vw;
-	color: #353531;
+	color: #313131;
 	z-index: 2;
 }
 
@@ -36,7 +37,7 @@
 	font-size: 2em;
 	top: 64vh;
 	left: 58vw;
-	color: #353531;
+	color: #313131;
 	z-index: 2;
 }
 
@@ -49,14 +50,31 @@
 	z-index: 2;
 }
 
-.arrow-down {
+.arrow-down-container {
 	position: absolute;
 	right: 27.6vw;
-	top: 85vh;
+	top: 81vh;
 	z-index: 20;
-	transform: scaleX(2);
 	animation: bounce 2s 0s infinite;
-	color: #353531;
+	/* height: 100px; */
+	/* width: 100px; */
+}
+
+.arrow-down {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 20;
+	color: #313131;
+	transform: scale(1.2);
+}
+
+.arrow-down-container:hover {
+	animation: paused;
+}
+
+.arrow-down:hover {
+	transform: scale(1.5);
 }
 
 @keyframes zoom-in {

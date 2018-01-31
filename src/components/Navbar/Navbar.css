@@ -4,7 +4,7 @@
   height: 10vh;
   z-index: 5;
   width: 100%;
-  background-color: #353531;
+  background-color: #313131;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -29,7 +29,7 @@
   position: relative;
   font-size: 1.5em;
   font-weight: bold;
-  color: white;
+  color: #f9f9f9;
   background: none;
   /* padding: 15px 15px 15px 15px; */
   width: auto;
@@ -39,22 +39,6 @@
   flex: 1 0 auto;
 }
 
-.Nav-btn1:hover {
-  color: #4ea7f1;
-}
-
-.Nav-btn2:hover {
-  color: #e9dc5b;
-}
-
-.Nav-btn3:hover {
-  color: #6be86e;
-}
-
-.Nav-btn4:hover {
-  color: #7383e6;
-}
-
-.Nav-btn5:hover {
-  color: #f47985;
+.Navbar-Link:hover {
+  color: #c1c1bf;
 }
