@@ -17,7 +17,50 @@
 .graphic-container {
 	position: absolute;
 	bottom: 0;
-	left: 6vw;
+	left: 5vw;
 	z-index: 2;
-	height: 80vh;
+	height: 84vh;
+}
+
+.buzzword {
+  font-size: 0.8em;
+  color: #313131;
+  font-family: "Nunito", sans-serif;
+  animation: float infinite;
+}
+
+.buzzword:hover {
+  font-size: 1em;
+}
+
+.buzzword-container {
+  opacity: 0;
+  animation: fade-in 4s 6s 1 forwards;
+}
+
+.buzzword:hover {
+  animation: pause;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0vh);
+    /* transition: ease-in; */
+  }
+  25% {
+    transform: translateY(1vh);
+    /* transition: ease-in; */
+  }
+  50% {
+    transform: translateY(0vh);
+    /* transition: ease-in; */
+  }
+  75% {
+    transform: translateY(1vh);
+    /* transition: ease-in; */
+  }
+  100% {
+    transform: translateY(0vh);
+    /* transition: ease-in; */
+  }
 }
