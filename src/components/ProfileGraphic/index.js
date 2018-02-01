@@ -12,9 +12,9 @@ class ProfileGraphic extends Component {
 					<div className="buzzword-container">
 						<h5 className="buzzword"
 							style={{
-							animationDuration: "5s",
+							animationDuration: "6s",
 							position: "absolute",
-							top: "5vh",
+							top: "3vh",
 							left: "20vw"
 						}}
 						>
@@ -22,43 +22,53 @@ class ProfileGraphic extends Component {
 						</h5>
 						<h5 className="buzzword"
 							style={{
-							animationDuration: "5.2s",
+							animationDuration: "6.4s",
 							position: "absolute",
-							top: "16vh",
-							left: "20vw"
+							top: "3vh",
+							left: "28vw"
+						}}
+						>
+							Git
+						</h5>
+						<h5 className="buzzword"
+							style={{
+							animationDuration: "6.2s",
+							position: "absolute",
+							top: "10vh",
+							left: "20.5vw"
 						}}
 						>
 							React
 						</h5>
 						<h5 className="buzzword"
 							style={{
-							animationDuration: "5.5s",
+							animationDuration: "6.6s",
 							position: "absolute",
 							top: "10vh",
-							left: "28vw"
+							left: "25vw"
+						}}
+						>
+							Node.JS
+						</h5>
+						<h5 className="buzzword"
+							style={{
+							animationDuration: "7s",
+							position: "absolute",
+							top: "16vh",
+							left: "19vw"
 						}}
 						>
 							HTML
 						</h5>
 						<h5 className="buzzword"
 							style={{
-							animationDuration: "5.8s",
+							animationDuration: "6.8s",
 							position: "absolute",
-							top: "12vh",
-							left: "24vw"
+							top: "16vh",
+							left: "28vw"
 						}}
 						>
 							CSS
-						</h5>
-						<h5 className="buzzword"
-							style={{
-							animationDuration: "6s",
-							position: "absolute",
-							top: "14vh",
-							left: "26vw"
-						}}
-						>
-							Git
 						</h5>
 					</div>
 				</div>

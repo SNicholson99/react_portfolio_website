@@ -23,14 +23,15 @@
 }
 
 .buzzword {
-  font-size: 0.8em;
-  color: #313131;
+  font-size: 1em;
+  color: #9f9f9b;
   font-family: "Nunito", sans-serif;
   animation: float infinite;
 }
 
 .buzzword:hover {
-  font-size: 1em;
+  transform: scale(1.5);
+  color: #313131
 }
 
 .buzzword-container {
