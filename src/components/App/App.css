@@ -5,19 +5,27 @@
 }
 
 .text-heading {
-	color: #353531;
+	color: #313131;
 	text-align: center;
 	font-family: "Russo One", cursive;
 }
 
 .text-subheading {
-	color: #353531;
+	color: #313131;
 	text-align: center;
 	font-family: "Oswald", sans-serif;
 }
 
 .text-body {
-	color: #353531;
+	color: #313131;
 	text-align: left;
 	font-family: "Nunito", sans-serif;
+}
+
+body {
+  cursor: default;
+}
+
+.clickable {
+	cursor: pointer;
 }

@@ -11,7 +11,7 @@
 .speaker-base {
   width: 30%;
   height: 100%;
-  background-color: #353531;
+  background-color: #313131;
   border-radius: 8%;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
   height: 0.5vw;
   width: 0.5vw;
   border-radius: 50%;
-  background-color: #353531;
+  background-color: #313131;
   border: ridge gray 0.9vw;
 }
 
@@ -43,7 +43,7 @@
   height: 1vw;
   width: 1vw;
   border-radius: 50%;
-  background-color: #353531;
+  background-color: #313131;
   border: ridge gray 1.5vw;
   bottom: 0%;
 }
@@ -55,13 +55,13 @@
   background-color: silver;
   bottom: 0;
   left: 30%;
-  border: 3px #353531 solid;
+  border: 3px #313131 solid;
   box-sizing: border-box;
 }
 
 .speaker-display {
   position: relative;
-  background-color: #353531;
+  background-color: #313131;
   width: 80%;
   height: 20%;
   border-radius: 10%;
@@ -81,7 +81,7 @@
   height: 0.4vw;
   width: 0.4vw;
   border-radius: 50%;
-  border: solid #353531 0.05vw;
+  border: solid #313131 0.05vw;
   background-color: red;
 }
 
@@ -103,11 +103,11 @@
 .speaker-dial {
   margin-top: 0.8vw;
   position: relative;
-  background: linear-gradient(to bottom right, #353531, gray);
+  background: linear-gradient(to bottom right, #313131, gray);
   height: 1.8vw;
   width: 1.8vw;
   border-radius: 50%;
-  border: 0.05vw #353531 solid;
+  border: 0.05vw #313131 solid;
 }
 
 @keyframes vibrate {
