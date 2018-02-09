@@ -1,0 +1,159 @@
+.Sunbather-container {
+  position: absolute;
+  height: 30%;
+  width: 14%;
+  /* background-color: red; */
+  left: 18%;
+  bottom: 20vh;;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.Sunbather-head {
+  position: absolute;
+  background-color: pink;
+  border-radius: 45%;
+  width: 35%;
+  height: 38%;
+  z-index: 7;
+  display: flex;
+  justify-content: center;
+}
+
+.Sunbather-hair-base {
+  position: absolute;
+  background-color: #fad47a;
+  border-radius: 45%;
+  width: 98%;
+  height: 90%;
+  z-index: 8;
+  border: 0.1vw solid #d2b266;
+}
+
+.Sunbather-neck {
+  position: absolute;
+  background-color: pink;
+  height: 6%;
+  width: 15%;
+  top: 36%;
+  z-index: 6;
+}
+
+.Sunbather-body {
+  position: absolute;
+  background-color: pink;
+  border-radius: 10% 10% 20% 20%;
+  width: 40%;
+  height: 60%;
+  bottom: 0%;
+  z-index: 5;
+}
+
+.Sunbather-shoulderblade {
+  position: absolute;
+  width: 30%;
+  height: 20%;
+  border-radius: 30%;
+  box-shadow: 0.15vw 0.15vw 0 0 gray;
+  top: 12%;
+}
+
+.Sunbather-shoulderblade-left {
+  left: 12%;
+}
+
+.Sunbather-shoulderblade-right {
+  left: 60%;
+  transform: rotateY(180deg);
+}
+
+.Sunbather-shorts {
+  position: absolute;
+  background-color: #2deb3b;
+  width: 100%;
+  height: 28%;
+  bottom: 0%;
+  left: 0%;
+  z-index: 6;
+  border-radius: 5% 5% 30% 30%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.15vw solid #c68f0a;
+  border-top: 0.3vw solid white;
+  animation: shorts-color-change 3s 0s infinite paused;
+}
+
+.Sunbather-ridge {
+  position: absolute;
+  background-color: black;
+  width: 4%;
+  height: 30%;
+  border-radius: 10%;
+  z-index: 7;
+  bottom: 0;
+}
+
+.Sunbather-arm {
+  position: absolute;
+  background-color: pink;
+  height: 60%;
+  width: 10%;
+  bottom: 0%;
+  z-index: 5;
+  border-radius: 20%;
+}
+
+.Sunbather-arm-left {
+  left: 19%;
+  transform: skew(-20deg);
+}
+
+.Sunbather-arm-right {
+  right: 19%;
+  transform: skew(20deg);
+}
+
+.Sunbather-hand {
+  position: absolute;
+  background-color: pink;
+  height: 8%;
+  width: 20%;
+  z-index: 6;
+  border-radius: 40%;
+  bottom: 0;
+  border-bottom: 0.15vw solid #c68f0a;
+}
+
+.Sunbather-hand-left {
+  left: 0;
+}
+
+.Sunbather-hand-right {
+  right: 0;
+}
+
+.Sunbather-container:hover .Sunbather-shorts {
+  animation: shorts-color-change 3s 0s infinite forwards;
+}
+
+@keyframes shorts-color-change {
+  0% {
+    background-color: #eb2d2d;
+  }
+  20% {
+    background-color: #eb902d;
+  }
+  40% {
+    background-color: #2deb3b;
+  }
+  60% {
+    background-color: #2ddeeb;
+  }
+  80{
+    background-color: #3e2deb;
+  }
+  100{
+    background-color: #eb2da1;
+  }
+}

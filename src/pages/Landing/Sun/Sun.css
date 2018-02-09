@@ -1,0 +1,15 @@
+.Sun-container {
+  position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 1vw;
+  left: 2vw;
+}
+
+.Sun {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#F9E8BB, #FACA4E, #F5B313);
+  border-radius: 50%;
+}

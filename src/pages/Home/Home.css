@@ -1,7 +1,7 @@
 .Home {
 	position: absolute;
 	left: 0vh;
-	top: 0vh;
+	top: 100vh;
 	background-color: #eeebdc;
 	/* background: radial-gradient(#eeebdc, #c1c1bf); */
 	height: 100vh;

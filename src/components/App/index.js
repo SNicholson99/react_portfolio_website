@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import Landing from './../../pages/Landing';
 import Home from './../../pages/Home';
 import MyStory from './../../pages/MyStory';
 import Projects from './../../pages/Projects';
@@ -12,7 +13,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
+        {/* <Navbar /> */}
+        <Landing />
         <Home />
         <AnimationGallery />
         <MyStory />
