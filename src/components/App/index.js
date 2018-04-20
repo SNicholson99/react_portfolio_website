@@ -18,7 +18,7 @@ class App extends Component {
           <AnimationGallery />
           <MyStory />
           {/* <Projects /> */}
-          <GetInTouch />
+          {/* <GetInTouch /> */}
         </div>
       </div>
     );
