@@ -4,47 +4,36 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: #eeebdc;
-}
+  background-color: #d6a9a9; }
 
 .GetInTouch-title {
-	font-size: 4.5em;
-	position: relative;
-	top: 10vh;
-	color: #313131;
-}
+  font-size: 4.5em;
+  position: relative;
+  top: 10vh;
+  color: #313131; }
 
 .GetInTouch-icon-container {
   position: relative;
   top: 18vh;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .contact-icon {
   zoom: 140%;
-  color: #313131;
-}
+  color: #313131; }
 
 .contact-icon:hover {
-	animation: shudder 0.1s 0s infinite;
-}
+  animation: shudder 0.1s 0s infinite; }
 
 @keyframes shudder {
-	0% {
-		transform: rotate(0deg);
-	}
-	25% {
-		transform: rotate(1.5deg);
-	}
-	50% {
-		transform: rotate(0deg);
-	}
-	75% {
-		transform: rotate(-1.5deg);
-	}
-	100% {
-		transform: rotate(0deg);
-	}
-}
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(1.5deg); }
+  50% {
+    transform: rotate(0deg); }
+  75% {
+    transform: rotate(-1.5deg); }
+  100% {
+    transform: rotate(0deg); } }
