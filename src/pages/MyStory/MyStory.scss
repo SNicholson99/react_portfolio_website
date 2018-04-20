@@ -10,35 +10,26 @@
 }
 
 .MyStory-title {
-  /* opacity: 0; */
+  // opacity: 0;
   position: relative;
   color: $black;
   top: 10vh;
-  font-size: 4.5em;
+  font-size: 3rem;
   font-family: $heading;
   text-align: center;
-  /* animation: fade-in 2s 1s 1 forwards; */
-}
-
-.MyStory-subheading {
-  /* opacity: 0; */
-  position: relative;
-  color: $black;
-  top: 6vh;
-  text-align: center;
-  font-family: $subheading;
-  /* animation: fade-in 3s 2s 1 forwards; */
+  animation: fade-in 2s 1s 1 forwards;
 }
 
 .MyStory-body {
-  /* opacity: 0; */
+  // opacity: 0;
   position: relative;
   color: $black;
-  top: 6vh;
+  top: 16vh;
   left: 10vw;
   padding: 1vw;
-  /* animation: fade-in 4s 3s 1 forwards; */
+  // animation: fade-in 4s 3s 1 forwards;
   max-width: 45%;
+  font-family: $body;
 }
 
 .MyStory-activity-container {
@@ -49,33 +40,31 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  font-family: $heading;
 }
 
 .MyStory-kayaker-container {
   top: 55vh;
   right: 25vw;
-  /* background-color: gray; */
   opacity: 0;
-  animation: fade-in 1s 1s 1 forwards;
-  color: #313131;
+  animation: fade-in 1s 2s 1 forwards;
+  color: $black;
 }
 
 .MyStory-climber-container {
   top: 55vh;
   right: 5vw;
-  /* background-color: red; */
   opacity: 0;
-  animation: fade-in 1s 2s 1 forwards;
-  color: #313131;
+  animation: fade-in 1s 3s 1 forwards;
+  color: $black;
 }
 
 .MyStory-coder-container {
   top: 20vh;
   right: 15vw;
-  /* background-color: orange; */
   opacity: 0;
-  animation: fade-in 1s 3s 1 forwards;
-  color: #313131;
+  animation: fade-in 1s 1s 1 forwards;
+  color: $black;
 }
 
 .MyStory-image {

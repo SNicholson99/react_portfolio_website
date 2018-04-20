@@ -10,7 +10,6 @@ class MyStory extends Component {
     return (
       <div id="MyStory" className="MyStory">
         <h1 className="MyStory-title text-heading">My Story</h1>
-        <h2 className="MyStory-subheading text-subheading">Not Your Average Developer...</h2>
         <div className="MyStory-body text-body">
           At the age of 18, I completed sixth form with a strong passion for technology. Not interested
           in going to university for another 3 years, I searched for an alternative route into the tech
