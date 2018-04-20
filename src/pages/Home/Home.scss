@@ -41,12 +41,12 @@
 .home-text-container {
 	position: relative;
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	color: $black;
 	margin: 0 50px;
-	font-family: $heading;
 	animation: fade-in 2s 1.6s 1 forwards;
 	opacity: 0;
+	font-family: $heading;
 }
 
 @keyframes fade-in {
@@ -59,6 +59,10 @@
 }
 
 .home-title {
+	position: relative;
+}
+
+.home-job-role {
 	position: relative;
 }
 

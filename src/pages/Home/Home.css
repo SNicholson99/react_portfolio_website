@@ -38,12 +38,12 @@
 .home-text-container {
   position: relative;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #313131;
   margin: 0 50px;
-  font-family: "Do Hyeon", sans-serif;
   animation: fade-in 2s 1.6s 1 forwards;
-  opacity: 0; }
+  opacity: 0;
+  font-family: "Do Hyeon", sans-serif; }
 
 @keyframes fade-in {
   0% {
@@ -52,4 +52,7 @@
     opacity: 1; } }
 
 .home-title {
+  position: relative; }
+
+.home-job-role {
   position: relative; }
