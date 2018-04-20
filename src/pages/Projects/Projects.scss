@@ -4,12 +4,15 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: #bab0e0; }
+  background-color: $purple;
+}
 
 .Projects-title {
   position: relative;
   top: 10vh;
-  font-size: 4.5em; }
+  font-size: 4.5em
+}
 
 .GridList {
-  padding-top: 6vw; }
+  padding-top: 6vw;
+}

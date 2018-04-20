@@ -1,0 +1,111 @@
+@import "theme";
+
+.home-container {
+	position: absolute;
+	left: 0vh;
+	top: 0vh;
+	background-color: $lightblue;
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.home-outline-graphic-container {
+	position: relative;
+	flex: 0 1 750px;
+	transform: translateX(-100vw);
+	animation: slide-in 1.4s linear 0s 1 forwards;
+}
+
+@keyframes slide-in {
+	0% {
+		transform: translateX(-100vw);
+	}
+	100% {
+		transform: translateX(0vw);
+	}
+}
+
+.home-outline-graphic {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.home-text-container {
+	position: relative;
+	text-align: center;
+	font-size: 1.4rem;
+	color: $black;
+	margin: 0 50px;
+	font-family: $heading;
+	animation: fade-in 2s 1.6s 1 forwards;
+	opacity: 0;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.home-title {
+	position: relative;
+}
+
+// .arrow-down-container {
+// 	position: relative;
+// 	// right: 27.6vw;
+// 	// top: 81vh;
+// 	z-index: 20;
+// 	animation: bounce 3s 0s infinite;
+// 	/* height: 100px; */
+// 	/* width: 100px; */
+// }
+
+// .arrow-down {
+// 	position: absolute;
+// 	right: 0;
+// 	top: 0;
+// 	z-index: 20;
+// 	color: #313131;
+// 	transform: scale(1.2);
+// }
+
+// .arrow-down-container:hover {
+// 	animation: paused;
+// }
+//
+// .arrow-down:hover {
+// 	transform: scale(1.5);
+// }
+
+// @keyframes bounce {
+// 	0% {
+// 		transform: translateY(0px);
+// 	}
+// 	10% {
+// 		transform: translateY(-20px);
+// 	}
+// 	20% {
+// 		transform: translateY(0px);
+// 	}
+// 	30% {
+// 		transform: translateY(-10px);
+// 	}
+// 	40% {
+// 		transform: translateY(0px);
+// 	}
+// 	50% {
+// 		transform: translateY(0px);
+// 	}
+// }

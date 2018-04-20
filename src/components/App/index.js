@@ -11,13 +11,15 @@ import Navbar from './../Navbar';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Navbar />
-        <Home />
-        <AnimationGallery />
-        <MyStory />
-        <Projects />
-        <GetInTouch />
+      <div>
+        <div className="App">
+          {/* <Navbar /> */}
+          <Home />
+          <AnimationGallery />
+          <MyStory />
+          {/* <Projects /> */}
+          <GetInTouch />
+        </div>
       </div>
     );
   }

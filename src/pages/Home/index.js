@@ -1,30 +1,21 @@
 import React, { Component } from "react";
 import "./Home.css";
-// import profile from "./profile.jpg";
-// import XmasHat from './../../components/XmasHat';
-// import RedNose from './../../components/RedNose';
-// import RabbitEars from './../../components/RabbitEars';
-// import RabbitNose from './../../components/RabbitNose';
-import ProfileGraphic from "./../../components/ProfileGraphic";
+import profile from "./profile-outline-gray.png";
 
 class Home extends Component {
 	render() {
 		return (
-			<div id="Home" className="Home">
-				<ProfileGraphic />
-				<div className="home-text">
-					<h1 className="title text-heading">
-						Scott Andrew<br />Nicholson
-					</h1>
-					<h4 className="sh text-subheading">
-						Full Stack Developer In Training
-					</h4>
+			<div id="Home" className="home-container">
+				<div className="home-outline-graphic-container">
+					<img src={profile} className="home-outline-graphic" />
 				</div>
-				<div className="arrow-down-container">
-					<i
-						className="fa fa-angle-double-down fa-5x arrow-down clickable"
-						aria-hidden="true"
-					/>
+				<div className="home-text-container">
+					<h1 className="home-title">
+						Scott Andrew Nicholson
+					</h1>
+					<h4 className="home-job-role">
+						Junior Web Developer
+					</h4>
 				</div>
 			</div>
 		);
@@ -32,3 +23,14 @@ class Home extends Component {
 }
 
 export default Home;
+
+{/* <div className="home-navbar-container"></div> */}
+
+{/* <a href="#AnimationGallery">
+<div className="arrow-down-container">
+<i
+className="fa fa-angle-double-down fa-5x arrow-down clickable"
+aria-hidden="true"
+/>
+</div>
+</a> */}
